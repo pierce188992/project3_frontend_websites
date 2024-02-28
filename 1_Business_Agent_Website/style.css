@@ -315,7 +315,7 @@ html {
 
 .video-wrapper {
   width: 100rem;
-  height: 50rem;
+  height: 50%;
   position: absolute;
   top: 5rem;
   right: 15rem;
@@ -379,15 +379,16 @@ html {
 
 .section-2-paragraph {
   width: 100rem;
+  height: 25%;
   position: absolute;
-  bottom: 8rem;
+  bottom: 0;
   right: 15rem;
   font-size: 2rem;
   line-height: 1.5;
   color: #ddd;
   border-top: 0.3rem double #aaa;
   border-bottom: 0.3rem double #aaa;
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -398,14 +399,14 @@ html {
 
 .fa-quote-left {
   align-self: flex-start;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #bbb;
   margin-bottom: 2rem;
 }
 
 .fa-quote-right {
   align-self: flex-end;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #bbb;
 }
 
@@ -698,6 +699,13 @@ html {
   color: #ddd;
 }
 
+.swiper-container {
+  width: 100%;
+  left: 0;
+  position: absolute;
+  overflow-x: hidden;
+}
+
 /* End of Footer */
 
 /* Responsive */
@@ -789,7 +797,7 @@ html {
   }
 
   .swiper-container {
-    width: 100%;
+    width: fit-content;
   }
 
   .section-4 {
